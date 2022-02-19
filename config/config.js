@@ -119,7 +119,7 @@ let config = {
 		{
 		 	module: "MMM-NowPlayingOnSpotify",
 		  	position: "top_right",
-			header: "Huidige nummer",
+			header: "Huidige spotify nummer",
 		  	config: {
 		    		clientID: "53ce3dc3c4db4aacae03be99284b1efc",
 		    		clientSecret: "c7569787608045399b784662d350c71a",
@@ -127,6 +127,14 @@ let config = {
 		    		refreshToken: "AQA_0V7bxJf09Mt8nVBRF0L6ZI01cebNZWM6MiWqqLf3T3PKbw3un9OuE9laLMi-SXonv4Z7i7QJnGy1rpZhhnFc2AjlH6gBjhBwzFllqA5vKdpPqVYHKO8kGzLlmzCiDBc"
 		  	}
 		},
+		{
+			module: 'MMM-Carousel',
+			config: {
+				transitionInterval: 10000,
+				ignoreModules: ['clock'],
+				mode: 'global'
+			}
+		}
 	]
 };
 
