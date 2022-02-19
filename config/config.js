@@ -66,7 +66,7 @@ let config = {
 		},
 		{
 			module: "weather",
-			position: "bottom_right",
+			position: "top_left",
 			header: "Weather Forecast",
 			config: {
 				weatherProvider: "openweathermap",
@@ -107,7 +107,7 @@ let config = {
 		},
 		{
            		module: 'MMM-CoinMarketCap',
-            	position: "bottom_left",
+            	position: "top_left",
            		config: {
               			apiKey: 'd542e896-c9ab-4f51-a4bf-c8c921277031',
        	 			currencies: ['bitcoin', 'ethereum', 'xrp'],
@@ -131,8 +131,9 @@ let config = {
 			module: 'MMM-Carousel',
 			config: {
 				transitionInterval: 10000,
-				ignoreModules: ['clock'],
-				mode: 'global'
+				ignoreModules: [],
+				mode: 'positional',
+				top_right: {enabled: true, ignoreModules: ['currentweather', 'clock']}
 			}
 		}
 	]
