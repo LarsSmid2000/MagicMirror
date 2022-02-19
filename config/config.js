@@ -107,7 +107,7 @@ let config = {
 		},
 		{
            		module: 'MMM-CoinMarketCap',
-            		position: "bottom_left",
+            	position: "bottom_left",
            		config: {
               			apiKey: 'd542e896-c9ab-4f51-a4bf-c8c921277031',
        	 			currencies: ['bitcoin', 'ethereum', 'xrp'],
@@ -119,14 +119,14 @@ let config = {
 		{
 		 	module: "MMM-NowPlayingOnSpotify",
 		  	position: "top_right",
-
+			header: "Huidige nummer",
 		  	config: {
 		    		clientID: "53ce3dc3c4db4aacae03be99284b1efc",
 		    		clientSecret: "c7569787608045399b784662d350c71a",
 		    		accessToken: "BQBMnWQprlfzanZjNJe1I2vye-usQgett0QA5LLvWBq293skmBJHDKuD3x7i26mwYVTdXf5mfErSXx-910XnDKe1XxsD9i4Etm3FQHFYaLMbxsF6bHC1es1mjytHtlVfqI-PER5aCtYi_wL9tDbbEugAfn8",
 		    		refreshToken: "AQA_0V7bxJf09Mt8nVBRF0L6ZI01cebNZWM6MiWqqLf3T3PKbw3un9OuE9laLMi-SXonv4Z7i7QJnGy1rpZhhnFc2AjlH6gBjhBwzFllqA5vKdpPqVYHKO8kGzLlmzCiDBc"
 		  	}
-		}, 
+		},
 	]
 };
 
